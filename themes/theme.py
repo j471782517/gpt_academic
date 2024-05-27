@@ -20,7 +20,12 @@ def load_dynamic_theme(THEME):
         from .green import adjust_theme, advanced_css
 
         theme_declaration = (
-            '<h2 align="center"  class="small">[Chuanhu-Small-and-Beautiful主题]</h2>'
+            '<h3 align="center" class="small">欢迎使用西农er’s GPT，本项目由❤一只爱跳水的兔子❤搭建。</h3>'
+            '<h2 style="display: flex; justify-content: center; gap: 10px;">'
+            '<a href="https://gpt.nwafu-ai.me" target="_blank" style="text-align: center;">🧪官网主页</a>'
+            '<a href="https://www.xnmath.club/qqqun.html" target="_blank" style="text-align: center;">🔑用户QQ群</a>'
+            '<a href="https://c1ujuj636ae.feishu.cn/wiki/Y05VwXi5tisTybkyDLHc1XEcnAb?from=from_copylink" target="_blank" style="text-align: center;">📝使用教程</a>'
+            '</h2>'
         )
     elif THEME == "High-Contrast":
         from .contrast import adjust_theme, advanced_css
